@@ -1,0 +1,10 @@
+1. en app.module.ts agregar
+
+import { HttpClientModule } from "@angular/common/http";
+
+y más abajo NgModule:
+
+imports: [
+  HttpClientModule
+]
+2.

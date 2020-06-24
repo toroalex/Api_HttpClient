@@ -15,13 +15,15 @@ import {MatIconModule} from '@angular/material/icon';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatProgressSpinnerModule,
-    MaterialModule
+    MatProgressSpinnerModule
   ],
   exports: [
     MatToolbarModule,
+    MatIconModule,
     MatButtonModule,
-    MatIconModule
+    MatCardModule,
+    MatProgressSpinnerModule
+
   ],
 })
 export class MaterialModule { }
